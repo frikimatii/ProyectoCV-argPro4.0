@@ -22,7 +22,7 @@ class RandomUser {
 
         let fotoPerfil = document.getElementsByClassName(`perfilPhoto`);
         fotoPerfil[0].innerHTML = `
-        <img src="${imagen}" class="figure-img img-fluid rounded animate__animated animate__fadeInLeft" alt="gente random">
+        <img src="${imagen}" class="rounded mx-auto d-block animate__animated animate__fadeInLeft " alt="Fotodeperfil">  ">
         `
 
         document.getElementById(`nombre`).innerHTML = `<span> ${nombre}</span>`
