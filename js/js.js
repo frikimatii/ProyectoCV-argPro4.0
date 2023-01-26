@@ -21,10 +21,9 @@ class RandomUser {
 
 
         let fotoPerfil = document.getElementsByClassName(`perfilPhoto`);
-        fotoPerfil[0].innerHTML = ` <figure class="figure">
+        fotoPerfil[0].innerHTML = `
         <img src="${imagen}" class="figure-img img-fluid rounded animate__animated animate__fadeInLeft" alt="gente random">
-        <figcaption class="figure-caption"></figcaption>
-      </figure>`
+        `
 
         document.getElementById(`nombre`).innerHTML = `<span> ${nombre}</span>`
         document.getElementById(`apellido`).innerHTML = `<span> ${apellido}</span>`
